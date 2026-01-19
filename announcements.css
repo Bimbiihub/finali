@@ -6,6 +6,7 @@ body {
     position: relative;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .homepage-button {
@@ -205,5 +206,6 @@ footer a {
         padding: 0;
         height: 42px;
     }
+
 
 }
