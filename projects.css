@@ -78,7 +78,7 @@ body {
     margin-bottom: 150px;
     margin-left: 25px;
     margin-right: 25px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .card {
@@ -158,4 +158,5 @@ body {
 
 .hidden {
     display: none !important;
+
 }
