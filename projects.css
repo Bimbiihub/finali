@@ -22,7 +22,7 @@ body {
 
 .filter-title {
     font-family: 'Montserrat';
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(255, 255, 255);
     background-color: none;
     border-radius: 10px;
@@ -165,10 +165,17 @@ body {
     }
 }
 
+@media (max-width: 1200px) {
+    .filter-title {
+        font-size: 23px;
+    }
+}
+
 .hidden {
     display: none !important;
 
 }
+
 
 
 
