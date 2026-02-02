@@ -22,7 +22,7 @@ body {
 
 .filter-title {
     font-family: 'Montserrat';
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(255, 255, 255);
     background-color: none;
     border-radius: 10px;
@@ -169,6 +169,7 @@ body {
     display: none !important;
 
 }
+
 
 
 
