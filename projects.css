@@ -99,6 +99,7 @@ body {
 .buttonz {
     display: flex;
     gap: 5px;
+}
 
     
 .card:hover {
@@ -165,4 +166,5 @@ body {
     display: none !important;
 
 }
+
 
