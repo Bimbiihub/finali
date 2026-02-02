@@ -93,8 +93,7 @@
                         </div>
                         <div>
                             <button class="expand-btn" onclick="toggleVideo(this)">
-                                Videoyu
-            İzle
+                               Proje Videosu 
                             </button>
                             <div class="video-container">
                                 <iframe
@@ -164,8 +163,7 @@
                         </div>
                         <div>
                             <button class="expand-btn" onclick="toggleVideo(this)">
-                                Videoyu
-              İzle
+                                Proje Videosu
                             </button>
                             <div class="video-container">
                                 <iframe
@@ -196,8 +194,7 @@
                         </div>
                         <div>
                             <button class="expand-btn" onclick="toggleVideo(this)">
-                                Videoyu
-              İzle
+                                Proje Videosu
                             </button>
                             <div class="video-container">
                                 <iframe
@@ -227,8 +224,7 @@
                         </div>
                         <div>
                             <button class="expand-btn" onclick="toggleVideo(this)">
-                                Videoyu
-              İzle
+                                Proje Videosu
                             </button>
                             <div class="video-container"></div>
                         </div>
@@ -248,8 +244,7 @@
                         </div>
                         <div>
                             <button class="expand-btn" onclick="toggleVideo(this)">
-                                Videoyu
-              İzle
+                                Proje Videosu
                             </button>
                             <div class="video-container">
                                 <iframe
@@ -277,8 +272,7 @@
                         </div>
                         <div>
                             <button class="expand-btn" onclick="toggleVideo(this)">
-                                Videoyu
-              İzle
+                                Proje Videosu
                             </button>
                             <div class="video-container">
                                 <iframe
@@ -305,8 +299,7 @@
                         </div>
                         <div>
                             <button class="expand-btn" onclick="toggleVideo(this)">
-                                Videoyu
-              İzle
+                                Proje Videosu
                             </button>
                             <div class="video-container">
                                 
@@ -323,8 +316,7 @@
                         </div>
                         <div>
                             <button class="expand-btn" onclick="toggleVideo(this)">
-                                Videoyu
-              İzle
+                               Proje Videosu
                             </button>
                             <div class="video-container">
                               <iframe width="560" height="315" src="https://www.youtube.com/embed/hRgBnf-nt_0?si=eyG2uDmukZEwS5EM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -356,7 +348,20 @@
     toggleButton.addEventListener("click", () => {
       navContainer.classList.toggle("active");
     });
+
+     function videoShow(cardID, videoNum) {
+          const vids = document.getElementById(cardID + '-video' + videoNum);
+          const allVids = document.querySelectorAll('.video-container');
+
+          allVids.forEach(video => {
+            if(video !== vids) {
+              video.classList.remove('expanded')
+            }});
+
+            vids.classList.toggle('expanded');
+          };
     </script>
 </body>
 </html>
+
 
