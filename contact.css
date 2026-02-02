@@ -138,6 +138,10 @@ body {
     padding: 1.5rem 1rem;
   }
 
+  .contact-form {
+    margin-right: 5px;
+  }
+
   .contact-info-title,
   .contact-form-title {
     font-size: 1.2rem;
@@ -283,4 +287,5 @@ body {
     opacity: 0%;
     transform: scaleY(-1);
   }
+
 }
