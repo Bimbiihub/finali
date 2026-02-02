@@ -38,6 +38,7 @@ body {
     align-items: center;
     height: fit-content;
     flex-wrap: wrap;
+    margin: 0 25px;
 }
 
 .filter-btn {
@@ -168,6 +169,7 @@ body {
     display: none !important;
 
 }
+
 
 
 
