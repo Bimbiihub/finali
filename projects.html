@@ -124,11 +124,15 @@
                             </div>
                         </div>
                         <div>
-                            <button class="expand-btn" onclick="toggleVideo(this)">
-                                Videoyu
-              İzle
+                            <div class="buttonz">
+                            <button class="expand-btn" onclick="videoShow('card-two', '-one')">
+                                Proje Videosu 1 
                             </button>
-                            <div class="video-container">
+                            <button class="expand-btn" onclick="videoShow('card-two', '-two')">
+                                Proje Videosu 2
+                            </button>
+                            </div>
+                            <div id="card-two-video-one" class="video-container">
                                 <iframe
                                     width="560"
                                     height="315"
@@ -139,6 +143,9 @@
                                     referrerpolicy="strict-origin-when-cross-origin"
                                     allowfullscreen
                                 ></iframe>
+                            </div>
+                            <div id="card-two-video-two" class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MEALKZMWTM4?si=K9y1o0uo3ZafRN3i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -352,3 +359,4 @@
     </script>
 </body>
 </html>
+
