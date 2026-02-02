@@ -96,6 +96,11 @@ body {
     padding: 15px;
 }
 
+.buttonz {
+    display: flex;
+    gap: 5px;
+
+    
 .card:hover {
     transform: translateY(-5px);
 }
@@ -160,3 +165,4 @@ body {
     display: none !important;
 
 }
+
