@@ -354,7 +354,7 @@
           const allVids = document.querySelectorAll('.video-container');
 
           allVids.forEach(video => {
-            if(video !== vids) {
+            if(video !== vids && video.parentElement === vids.parentElement) {
               video.classList.remove('expanded')
             }});
 
@@ -363,6 +363,7 @@
     </script>
 </body>
 </html>
+
 
 
 
